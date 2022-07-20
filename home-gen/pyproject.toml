@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "home-gen"
+version = "0.0.1"
+authors = [
+    {name="Matteo Gisondi", email="matteo.gisondi@gmail.com"},
+    {name="Hayden Ross", email="haydenross00@gmail.com"},
+]
+description = "Architectural generation with machine learning"
+readme = "README.md"
+license = {file="LICENSE"}
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/HayRossSibz22/Summer-Projects/home-gen"
+"Bug Tracker" = "https://github.com/HayRossSibz22/Summer-Projects/issues"
+
+[tool.black]
+line-length = 120
